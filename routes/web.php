@@ -14,5 +14,6 @@ use App\Http\Controllers\apiController;
 |
 */
 
-Route::get('/',[apiController::class,'jalar'])->name('jalar');
-Route::get('/jalar',[apiController::class,'jalar2'])->name('jalar2');
+Route::get('/jalar',[apiController::class,'jalar'])->name('jalar');
+Route::get('/jalar2',[apiController::class,'jalar2'])->name('jalar2');
+Route::get('/jalar3',[apiController::class,'jalar3'])->name('jalar3');
